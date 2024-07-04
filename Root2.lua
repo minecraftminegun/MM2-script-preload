@@ -1,8 +1,8 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Murder Mystery 2 OP",
-   LoadingTitle = "Made by freScript on scriptblox",
-   LoadingSubtitle = "by frescript",
+   Name = "Fallen King's OP Murder Mystery 2 Script",
+   LoadingTitle = "Made by @fallenkingchannel3627 on Youtube!",
+   LoadingSubtitle = "by Fallen King",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = MurderMysteryFre, -- Create a custom folder for your hub/game
@@ -319,6 +319,6 @@ local Section = Tab:CreateSection("Discord Server invite Link")
 local Button = Tab:CreateButton({
     Name = "Discord Server Invite Link",
     Callback = function()
-        
-
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/discord-invite-link-string-setup/main/string%20setup'))()
+      end
 })
